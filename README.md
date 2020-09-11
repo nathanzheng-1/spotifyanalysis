@@ -1,1 +1,5 @@
 # spotifyanalysis
+
+The problem our group is trying to tackle is to predict the genre of song based on the Spotify API Data Features. The Spotify API provides a wide range of data features that the company analyzed from each audio track, most of which is numerical data. Different features include acousticness, danceability, energy, instrumentalness, key, liveness, loudness, tempo, time signature, and duration. These features are documented here: https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/
+
+Because there isn’t a Spotify dataset online to satisfy our needs, we intend to create our own dataset using the API. Our main objective of this project is to discern whether we can use machine learning models to classify songs accurately within several main genres, using a small sample size of notable artists from each genre to generate our data. We will be choosing three artists for each of three different music genres: mainstream pop, rap, and R&B. For pop, we chose Ed Sheeran, Selena Gomez, and Justin Bieber. For rap, we chose Drake, Eminem, and Kendrick Lamar. Lastly, for R&B, we chose Daniel Caesar, H.E.R, and Kehlani.
